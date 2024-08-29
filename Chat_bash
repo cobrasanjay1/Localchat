@@ -1,3 +1,5 @@
+This is a simple version of localchat tried using bash. It has lot of restrictions. This concept is used to make this program in Python 
+
 ### Sender 
 echo "Message" | nc -u Receivers_Ip_Address Port_No
 eg: echo "hi" | nc -u 192.168.20.85 80
