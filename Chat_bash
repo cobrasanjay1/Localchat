@@ -1,0 +1,7 @@
+### Sender 
+echo "Message" | nc -u Receivers_Ip_Address Port_No
+eg: echo "hi" | nc -u 192.168.20.85 80
+
+### Receiver 
+sudo nc -u -l Port_No
+eg: sudo nc -u -l 80
