@@ -25,7 +25,6 @@ This is a simple UDP-based chat application written in Python. It allows for com
 To start the server, run the following command. The server will automatically start in a separate thread and the client will prompt you to enter the IP address of the server.
 
 ``` bash
-Copy code
 python3 Chat.py
 ```
 Once the client is running, you can start typing messages to send to the server.
