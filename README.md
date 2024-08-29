@@ -21,17 +21,13 @@ This is a simple UDP-based chat application written in Python. It allows for com
 
 ## Usage
 
-### Running the Server
+### Running the Server and the CLient
+To start the server, run the following command. The server will automatically start in a separate thread and the client will prompt you to enter the IP address of the server.
 
-To start the server, you simply need to run the script. The server will automatically start in a separate thread.
-
-```bash
+``` bash
+Copy code
 python3 Chat.py
 ```
-
-### Running the Client
-After starting the server, you'll need to run the client. The client will prompt you to enter the IP address of the server.
-python3 Chat.py
 Once the client is running, you can start typing messages to send to the server.
 
 ### Code Overview
