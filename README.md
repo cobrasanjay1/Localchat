@@ -27,6 +27,7 @@ To start the server, you simply need to run the script. The server will automati
 
 ```bash
 python3 Chat.py
+```
 
 ### Running the Client
 After starting the server, you'll need to run the client. The client will prompt you to enter the IP address of the server.
